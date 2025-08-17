@@ -1,10 +1,12 @@
-# GitHub User Fetcher
+# Gitcher
+## A GitHub User Fetcher
 
 A modern, responsive web application for fetching and visualizing GitHub user information with beautiful charts and comprehensive insights.
 
-![GitHub User Fetcher](https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&logo=next.js)
+![GitHub User Fetcher](https://img.shields.io/badge/Built%20with%20Next.js-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![v0](https://img.shields.io/badge/v0-000000?style=for-the-badge&logo=v0&logoColor=white)
 
 ## Features
 
@@ -46,46 +48,6 @@ A modern, responsive web application for fetching and visualizing GitHub user in
 - **Rate Limiting**: Built-in handling for API constraints
 - **Caching Strategy**: Local storage for performance optimization
 
-## Getting Started
-
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn package manager
-
-### Installation
-
-1. **Clone the repository**
-   \`\`\`bash
-   git clone https://github.com/your-username/github-user-fetcher.git
-   cd github-user-fetcher
-   \`\`\`
-
-2. **Install dependencies**
-   \`\`\`bash
-   npm install
-   # or
-   yarn install
-   \`\`\`
-
-3. **Run the development server**
-   \`\`\`bash
-   npm run dev
-   # or
-   yarn dev
-   \`\`\`
-
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
-### Environment Variables
-
-No environment variables are required for basic functionality. The application uses GitHub's public API without authentication, which provides 60 requests per hour per IP address.
-
-For higher rate limits, you can optionally add a GitHub personal access token:
-
-\`\`\`env
-GITHUB_TOKEN=your_github_personal_access_token
-\`\`\`
 
 ## Usage
 
@@ -177,11 +139,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **No tracking**: No analytics, cookies, or third-party tracking
 - **Transparent**: Full source code available for review
 
-See our [Privacy Policy](https://your-domain.com/privacy) for complete details.
+See our [Privacy Policy](https://gitcher.vercel.app/privacy) for complete details.
 
 ## Support
 
-- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/your-username/github-user-fetcher/issues)
+- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/nishuR31/gitcher/issues)
 - **Discussions**: Join community discussions for questions and ideas
 - **Documentation**: Comprehensive guides available in the `/docs` folder
 
@@ -211,6 +173,6 @@ See our [Privacy Policy](https://your-domain.com/privacy) for complete details.
 
 ---
 
-**Built with ❤️ using Next.js, TypeScript, and Tailwind CSS**
+**Built with ❤️ using Next.js, TypeScript, and Tailwind CSS, Powered by v0**
 
-For more information, visit our [website](https://your-domain.com) or check out the [live demo](https://your-domain.com/search).
+For more information, visit our [website](https://gitcher.vercel.app) or check out the [live demo](https://gitcher.vercel.app).
